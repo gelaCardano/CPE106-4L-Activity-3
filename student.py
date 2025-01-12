@@ -11,3 +11,4 @@ class Student:
     
     def __ge__ (self, compareWith):
         return self.name >= compareWith.name
+ 
