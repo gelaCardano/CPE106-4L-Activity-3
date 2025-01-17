@@ -7,10 +7,9 @@ import random
 from savingsaccount import SavingsAccount
 
 class Bank:
-    """This class represents a bank as a collection of savnings accounts.
-    An optional file name is also associated
-    with the bank, to allow transfer of accounts to and
-    from permanent file storage."""
+    """This class represents a bank as a collection of savings accounts.
+    An optional file name is also associated with the bank, to allow 
+    transfer of accounts to and from permanent file storage."""
 
     # The state of the bank is a dictionary of accounts and
     # a file name.  If the file name is None, a file name
